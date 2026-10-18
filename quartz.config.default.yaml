@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: klemzif.github.io/Izpeljano
+  baseUrl: izpeljava.dakesoal.org
   ignorePatterns:
     - private
     - templates
