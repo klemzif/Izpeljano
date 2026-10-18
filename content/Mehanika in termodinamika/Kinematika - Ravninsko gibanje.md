@@ -58,12 +58,10 @@ Enačbo tirnice izračunamo tako, da iz prve enačbe izpostavimo čas in ga vsta
 <span id="enacba-tirnice"></span>
 
 $$
-
 \begin{aligned}
 y&=v_0\sin\varphi\left(\frac{x}{v_0\cos\varphi}\right)-\frac{gx^2}{2v_0^2\cos^2\varphi}\\
 y&=x\left(\tan\varphi - \frac{x}{2v_0^2\cos^2\varphi}\right)
 \end{aligned}
-
 $$
 
 > [!NOTE] Krivulja je **parabola**, obrnjena navzdol zaradi $-x^2$.
@@ -73,11 +71,9 @@ $$
 V najvišji točki je hitrost vodoravna, to pomeni, da je navpična komponenta hitrost enaka nič:
 
 $$
-
 \begin{aligned}
 0=v_y(t_1)=v_0\sin\varphi-gt_1
 \end{aligned}
-
 $$
 
 Od tod lahko izračunamo čas vzpona:
@@ -87,13 +83,11 @@ $$t_1=\frac{v_0\sin\varphi}{g}$$
 Najvišjo lego lahko izračunamo iz [[Kinematika - Ravninsko gibanje#^pos-met-lega|osnovne enačbe]] in zgornjega časa:
 
 $$
-
 \begin{align}
 h&=v_0\left(\frac{v_0\sin\varphi}{g}\right)\sin\varphi-\frac{g}{2}\left(\frac{v_0\sin\varphi}{g}\right)^2\\
 h&=\frac{v_0^2\sin^2\varphi}{g}-\frac{v_0^2\sin^2\varphi}{2g}\\
 h&=\frac{v_0^2\sin^2\varphi}{2g}
 \end{align}
-
 $$
 
 ## Čas leta
@@ -115,20 +109,17 @@ To je razdalja, na kateri telo pade na tla:
 1. S pomočjo čas $t_2$:
 
 $$
-
 \begin{aligned}
 D&=v_0t_2\cos\varphi\\
 D&=v_0\frac{2v_0\sin\varphi}{g}\cos\varphi\\
 D&=\frac{v_0^2}{g}2\sin\varphi\cos\varphi\\
 D&=\frac{v_0^2}{g}\sin(2\varphi)
 \end{aligned}
-
 $$
 
 2. Neposredno iz [[Kinematika - Ravninsko gibanje#^enacba-tirnice|tirnice]] $y(x)=0$:
 
 $$
-
 \begin{aligned}
 y&=x\tan\varphi-\frac{g}{2v_0^2\cos^2\varphi}x^2\\
 x=D\neq 0\\
@@ -138,7 +129,6 @@ D&=\frac{2v_0^2\cos^2\varphi}{g}\cdot\frac{\sin\varphi}{\cos\varphi}\\
 D&=\frac{2v_0^2}{g}\sin\varphi\cos\varphi\\
 D&=\frac{v_0^2}{g}\sin(2\varphi)
 \end{aligned}
-
 $$
 
 > [!NOTE] Najdaljši domet pri $\varphi=45°$
@@ -156,7 +146,6 @@ $$
 Za izračun uporabimo [[Kinematika - Ravninsko gibanje#^hitrost|prej dokazano formulo]]:
 
 $$
-
 \begin{aligned}
 v^2&=v_x^2+v_y^2\\
 v^2&=(v_0\cos\varphi)^2+(v_0\sin\varphi-gt)^2\\
@@ -164,7 +153,6 @@ v^2&=v_0^2+g^2t^2-2v_0gt\sin\varphi\\
 v^2&=v_0^2-2g(v_0t\sin\varphi-\frac{gt^2}{2})\\
 v^2&=v_0^2-2gy
 \end{aligned}
-
 $$
 
 > [!NOTE] Hitrost na neki višini $y$ je neodvisna od kota. (kot se je pokrajšal) Enaka je na isti višini ne glede na smer (dol - pospešeno; gor - upočasnjeno).
@@ -172,7 +160,6 @@ $$
 Hitrost na vrhu $y=h=\frac{v_0^2\sin^2\varphi}{2g}$, $v_y=0$, $v=v_x$:
 
 $$
-
 \begin{aligned}
 v^2&=v_0^2-2gh\\
 v^2&=v_0^2-2g\cdot \frac{v_0^2\sin^2\varphi}{2g}\\
@@ -181,7 +168,6 @@ v^2&=v^2_0(1-\sin^2\varphi)\\
 v^2&=v_0^2\cos^2\varphi\\
 v&=v_0\cos\varphi
 \end{aligned}
-
 $$
 
 > [!NOTE] Rezultat se ujema z hitrostjo $v_x$, ki je ves čas konstantna.
@@ -193,32 +179,26 @@ Gre za poseben primer [[Kinematika - Ravninsko gibanje#Poševni met (v vakumu)|p
 ![vodoravni-met](</img/Ravninsko gibanje/vodoravni-met.svg>)
 
 $$
-
 \begin{aligned}
 v_x&=v_0\\
 v_y&=-gt
 \end{aligned}
-
 $$
 
 $$
-
 \begin{aligned}
 x&=v_0t\\
 y&=h-\frac{gt^2}{2}
 \end{aligned}
-
 $$
 
 Čas padanja:
 
 $$
-
 \begin{aligned}
 0&=h-\frac{gt^2}{2}\\
 t_p&=\sqrt{\frac{2h}{g}}
 \end{aligned}
-
 $$
 
 Hitrost na višini $y$ izračunamo enako kot [[#Hitrost na višini $y$|pri poševnem metu]].
