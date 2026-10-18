@@ -33,12 +33,12 @@ $$v=v_0+at$$ ^5e8f42
 
 > [!NOTE] Ker so vsi vektorji na isti premici jih lahko v enačbi preprosto nadomestimo z skalarji.
 
-Podobno lahko zapišemo tudi enačbo za lego iz [[Kinematika - Vektorski zapis gibanja#^integral-hitrosti-po-casu|te enačbe]]. Vektor $\vec{r}_0$ nadomestimo z $0$ saj, izhodišče postavimo tja, kjer je telo ob $t=0$:
+Podobno lahko zapišemo tudi enačbo za lego iz [[Kinematika - Vektorski zapis gibanja#^integral-hitrosti-po-casu|te enačbe]]. Vektor $\vec{r}_0$ nadomestimo z $0$, saj izhodišče postavimo tja, kjer je telo ob $t=0$:
 
 $$
 \begin{aligned}
 \vec{r}(t)-\vec{r}_0&=\int_{0}^{t}\vec{v}dt\\
-x(t)&=\int_{0}^{t}\vec{v}dt\\
+x(t)&=\int_{0}^{t}v_xdt\\
 \end{aligned}
 $$
 
