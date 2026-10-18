@@ -31,7 +31,7 @@ $$
 
 > [!NOTE] Hitrost je tangentna na tirnico gibanja.
 
-# Poševni met (v vakumu)
+# Poševni met (v vakuumu)
 
 Tudi tukaj gibanje razdelimo na komponente. Edina sila, ki deluje, je gravitacijska:
 
@@ -60,7 +60,7 @@ Enačbo tirnice izračunamo tako, da iz prve enačbe izpostavimo čas in ga vsta
 $$
 \begin{aligned}
 y&=v_0\sin\varphi\left(\frac{x}{v_0\cos\varphi}\right)-\frac{gx^2}{2v_0^2\cos^2\varphi}\\
-y&=x\left(\tan\varphi - \frac{x}{2v_0^2\cos^2\varphi}\right)
+y&=x\left(\tan\varphi - \frac{gx}{2v_0^2\cos^2\varphi}\right)
 \end{aligned}
 $$
 
@@ -96,7 +96,7 @@ Za izračun časa ($t_2$) celotnega meta uporabimo [[Kinematika - Premo gibanje#
 
 $$0=v_0\sin\varphi t_2-\frac{gt_2^2}{2}$$
 
-Prva rešitev je $t_2=0$ (začetek gibanja), druga pa:
+Prva rešitev je $t_1=0$ (začetek gibanja), druga pa:
 
 $$t_2=\frac{2v_0\sin\varphi}{g}=2t_1$$
 
@@ -174,7 +174,7 @@ $$
 
 # Vodoravni met
 
-Gre za poseben primer [[Kinematika - Ravninsko gibanje#Poševni met (v vakumu)|poševnega meta]] pri kotu $\varphi = 0$.
+Gre za poseben primer [[Kinematika - Ravninsko gibanje#Poševni met (v vakuumu)|poševnega meta]] pri kotu $\varphi = 0$.
 
 ![vodoravni-met](</img/Ravninsko gibanje/vodoravni-met.svg>)
 
@@ -201,7 +201,7 @@ t_p&=\sqrt{\frac{2h}{g}}
 \end{aligned}
 $$
 
-Hitrost na višini $y$ izračunamo enako kot [[#Hitrost na višini $y$|pri poševnem metu]].
+Hitrost na višini $y$ izračunamo enako kot [[#Hitrost na višini $y$|pri poševnem metu]], če velja $y_0=h$.
 
 # Kroženje točkastega telesa
 
@@ -262,7 +262,7 @@ $$
 
 $$
 
-> [!NOTE] Uporabljeno verižno pravilno
+> [!NOTE] Uporabljeno verižno pravilo
 > Če se neka spremenljivka $y$ spreminja s $\varphi$, $\varphi$ pa s $t$, potem je hitrost spreminjanja $y$ s časom:
 > $$\frac{dy}{dt}=\frac{dy}{d\varphi}\cdot \frac{d\varphi}{dt}$$
 
@@ -378,7 +378,7 @@ d\varphi&=\omega dt\\
 $$
 
 > [!NOTE] Parabolična odvisnost zasuka
-> Zaradi kotnega pospeška se kotna hitrost veča, zato v vsaki sekundi preteče več kota kot v prejšni. $\varphi(t)$ je parabola.
+> Zaradi kotnega pospeška se kotna hitrost veča, zato v vsaki sekundi preteče več kota kot v prejšnji. $\varphi(t)$ je parabola.
 
 ## Enakomerno kroženje
 
@@ -417,7 +417,7 @@ $$
 
 $$
 
-x=r\cos(\omega_0t), \space y=r\sin(\omega_t)
+x=r\cos(\omega_0t), \space y=r\sin(\omega_0t)
 
 $$
 

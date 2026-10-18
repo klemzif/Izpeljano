@@ -3,7 +3,7 @@
 - čas je **absoluten** - je zvezen in isti vsepovsod
 - gibanje je **relativno** - premikanje vedno opazujemo glede na okolico (opazovalni sistem običajno vežemo na zemljino površje) + gibanje odvisno od koordinatnega sistema v katerem ga opazujemo
 
-> [!NOTE] Translatarno gibanje
+> [!NOTE] Translatorno gibanje
 > Vsaka točka telesa ima enako hitrost. (enako hitro v enaki smeri, enak pospešek npr. avto če izvzamemo vrteča se kolesa) $\rightarrow$ gibanje telesa določeno, če vemo kako se giblje ena sama točka telesa (npr. težišče) $\rightarrow$ zadošča če si predstavljamo telo kot točko
 
 # Vektorski zapis gibanja
@@ -27,7 +27,7 @@ $$\vec{r}=\left|\vec{r}\right| = \sqrt{x^2+y^2+z^2}$$
 
 $$\Delta r = \vec{r}(t+\Delta t) - \vec{r}(t)$$
 
-Če gre zdaj sprememba časa proti infitizimalno majhni vrednosti $\Delta t \rightarrow 0$ dobimo:
+Če gre zdaj sprememba časa proti infinitezimalno majhni vrednosti $\Delta t \rightarrow 0$ dobimo:
 
 $$d\vec{r}=\vec{r}(t+dt)-\vec{r}(t)$$
 
@@ -42,9 +42,7 @@ Hitrost nam pove, kako hitro se **lega delca spreminja s časom**.
 
 $$\vec{v}=\frac{d\vec{r}}{dt}$$
 
-> [!NOTE] $d\vec{r}$ ima smer tangente na tirnico gibanja točke
->
-> $\vec{v}$ ima enako smer kot $\vec{r}$
+> [!NOTE] $d\vec{r}$ ima smer tangente na tirnico gibanja točke.
 
 ### Hitrost kot odvod lege po času
 
@@ -60,7 +58,7 @@ $$\vec{v}=\frac{d}{dt}\vec{r}=\frac{d}{dt}(x\vec{i}+y\vec{j}+z\vec{k})=\frac{dx}
 
 Isto stvar lahko zapišemo tudi z oklepaji, kjer nam mesta v oklepaju povejo za katero koordinato gre:
 
-$$\frac{dx}{dt}\vec{i}+\frac{dy}{dt}\vec{j}+\frac{dz}{dt}\vec{k}=\left(\frac{dx}{dt}, \frac{dy}{dt}, \frac{dy}{dt} \right)=\left(v_x, v_y, v_z \right)$$
+$$\frac{dx}{dt}\vec{i}+\frac{dy}{dt}\vec{j}+\frac{dz}{dt}\vec{k}=\left(\frac{dx}{dt}, \frac{dy}{dt}, \frac{dz}{dt} \right)=\left(v_x, v_y, v_z \right)$$
 
 > [!NOTE] $v_x$, $v_y$, $v_z$ so projekcije $\vec{v}$ na posamezne koordinatne osi
 > $$v_x=\frac{dx}{dt}, \space v_y=\frac{dy}{dt}, \space v_z=\frac{dz}{dt}$$ <a id="hitrost-po-komponentah"></a>
@@ -157,7 +155,7 @@ Iz [[#^cd2a23|enačbe]] dobimo:
 
 $$a=\left|\vec{a}\right|=\sqrt{a^2_x+a^2_y+a^2_z}$$
 
-> [!NOTE] Smer pospeška $\vec{a}$ kaže smer spemembe hitrosti $d\vec{v}$.
+> [!NOTE] Smer pospeška $\vec{a}$ kaže smer spremembe hitrosti $d\vec{v}$.
 
 > [!ABSTRACT] Pospešek
 > $$\vec{a}=\frac{d^2\vec{r}}{dt^2}=\frac{d\vec{v}}{dt}$$
@@ -219,7 +217,7 @@ $$
 - $\vec{a_0}=0$
 - $\vec{v}=\vec{v_0}$
 - tirnica: premica, ki jo določa $\vec{v_0}$
-  Krajevni vektor se spreminja s časom linearno, zato je tirnica premici, ki jo določa začetna hitrost.
+  Krajevni vektor se spreminja s časom linearno, zato je tirnica premica, ki jo določa začetna hitrost.
 
 ![a(t)](</img/Vektorski zapis gibanja/sprememba-krajevnega-vektorja.svg>)
 

@@ -59,7 +59,7 @@ $$
 \begin{aligned}
 x&=v_0\frac{v-v_0}{a}+\frac{a}{2}\frac{(v-v_0)^2}{a^2}\\
 2ax&=2v_0(v-v_0)+(v-v_0)^2\\
-2ax&=2v_0v-2v_0^2+v^2-2v_0v-v_0^2\\
+2ax&=2v_0v-2v_0^2+v^2-2v_0v+v_0^2\\
 2ax&=v^2-v_0^2\\
 v^2&=v_0^2+2ax
 \end{aligned}
@@ -67,7 +67,7 @@ $$
 
 ## Prosti pad
 
-- $g=9,8\frac{m}{s^2}$
+- $g=9,81\frac{m}{s^2}$
 - zračni upor zanemarimo
 
 Za izračun hitrosti prostega pada uporabimo samo $y$ komponento [[Kinematika - Vektorski zapis gibanja#^pospesek-po-kordinatah|splošne enačbe za pospešek]]. Oziroma [[Kinematika - Premo gibanje#^xt|to formulo]], kjer je začetna hitrost $0$:
@@ -86,7 +86,7 @@ $$
 > [!NOTE] Ob času nič je hitrost $0$, ker ne poženemo dol.
 
 > [!INFO] $g=9,81\frac{m}{s^2}$
-> V tem primeru gravitacijski pospešek jemljemo kot konstanto, saj gre za majne višinske razlike. Pravi gravitacijski pospešek je: $$g(r)=\frac{GM}{r^2}$$
+> V tem primeru gravitacijski pospešek jemljemo kot konstanto, saj gre za majhne višinske razlike. Pravi gravitacijski pospešek je: $$g(r)=\frac{GM}{r^2}$$
 > Torej če pade objekt za par metrov se $r$ praktično ne spremeni. Ker $g$ ni odvisen od $t$, ga damo pred integral.
 
 ![prosti-pad](</img/Premo gibanje/prosti-pad.svg>)
@@ -157,7 +157,7 @@ v_y&=v_0-gt
 \end{aligned}
 $$
 
-Za lego ponovno uporabimo izraz $x(t)$ [[Kinematika - Premo gibanje#^xt|pri enakomerno pospešenem gibanju]], le da kego zapišemo z $y$ in uporabimo gravitacijski pospešek:
+Za lego ponovno uporabimo izraz $x(t)$ [[Kinematika - Premo gibanje#^xt|pri enakomerno pospešenem gibanju]], le da ga zapišemo z $y$ in uporabimo gravitacijski pospešek:
 
 <a id="lega-pri-navpicnem-metu"></a>
 
