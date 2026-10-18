@@ -203,8 +203,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        "© 2026 klemzif · CC BY-SA 4.0": https://creativecommons.org/licenses/by-sa/4.0/
     layout:
       position: footer
       priority: 50
