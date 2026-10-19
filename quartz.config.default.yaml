@@ -122,6 +122,16 @@ plugins:
     enabled: true
   - source: "@quartz-community/cname"
     enabled: true
+  - source: "./custom-plugins/landing-page"
+    enabled: true
+    options:
+      exclude: ["templates", "private", ".obsidian"]
+      wide: ["matematika", "fizika"]
+    # DODAJ TOLE:
+    layout:
+      frame: minimal # To pove Quartzu, naj ne uporabi standardnih sidebarov
+      position: pageBody
+      priority: 100
   - source: "@quartz-community/canvas-page"
     enabled: true
   - source: "@quartz-community/content-page"
