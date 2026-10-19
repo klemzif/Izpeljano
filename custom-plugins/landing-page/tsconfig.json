@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": false,
+    "baseUrl": ".",
+    "paths": {
+      "preact/jsx-runtime": ["../../node_modules/preact/jsx-runtime"]
+    }
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "quartz-landing-page",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsup src/index.ts --format esm --dts --no-splitting --tsconfig tsconfig.json --jsxFactory h --jsxFragment Fragment"
+    },
+    "devDependencies": {
+        "tsup": "^8.0.0",
+        "@quartz-community/types": "latest",
+        "preact": "latest"
+    },
+    "quartz": {
+        "type": "pageType"
+    }
+}
