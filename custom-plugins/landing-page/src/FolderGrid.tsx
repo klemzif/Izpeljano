@@ -15,11 +15,10 @@ interface Options {
 const defaultOptions: Options = { exclude: [], wide: [] }
 
 const GLYPHS: Record<string, string> = {
-  "Mehanika in termodinamika": "Δ",
+  "Mehanika-in-termodinamika": "Δ",
   Matematika: "∂",
+  "Osnove-elektrotehnike": "∂",
   Fizika: "ψ",
-  Statistika: "σ",
-  Analiza: "λ",
   Algebra: "∄",
   Default: "∫",
 }

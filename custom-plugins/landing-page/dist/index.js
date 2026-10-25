@@ -259,11 +259,10 @@ function u2(e2, t2, n2, o2, i2, u3) {
 // src/FolderGrid.tsx
 var defaultOptions = { exclude: [], wide: [] };
 var GLYPHS = {
-  "Mehanika in termodinamika": "\u0394",
+  "Mehanika-in-termodinamika": "\u0394",
   Matematika: "\u2202",
+  "Osnove-elektrotehnike": "\u2202",
   Fizika: "\u03C8",
-  Statistika: "\u03C3",
-  Analiza: "\u03BB",
   Algebra: "\u2204",
   Default: "\u222B"
 };
